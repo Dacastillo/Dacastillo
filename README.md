@@ -1,5 +1,5 @@
 # Daniel Castillo-Castro
-## Candidato a Doctor en Física, CQOQI U.Mayor, Chile
+## Doctor en Física, NFME U.Mayor y Facultad de Física PUC, Chile
 ## Licenciado en Física, PUC Chile
 
 🌏 🇨🇱
