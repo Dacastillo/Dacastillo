@@ -1,5 +1,5 @@
 # Daniel Castillo-Castro
-## Doctor en Física, NFME U.Mayor y Facultad de Física PUC, Chile
+## Doctor en Física, CMF U.Mayor, Chile
 ## Licenciado en Física, PUC Chile
 
 🌏 🇨🇱
