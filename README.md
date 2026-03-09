@@ -1,185 +1,129 @@
 <div align="center">
 
-# Daniel Castillo-Castro
-### 🧲 Physicist · Computational Materials Scientist · AI Methods Developer
+# Daniel Castillo Castro · `Dacastillo`
 
-*Doctor en Física — Universidad Mayor, Chile*  
-*Licenciado en Física — Pontificia Universidad Católica de Chile*
+**Físico Computacional · Modelamiento Multiescala · Simulación Cuántica**
 
-[![Website](https://img.shields.io/badge/🌐_Website-dacastillo.github.io-blue?style=flat-square)](http://dacastillo.github.io)
-[![Location](https://img.shields.io/badge/📍_Santiago-Chile-red?style=flat-square)](https://maps.app.goo.gl/Santiago)
-[![Arctic Code Vault](https://img.shields.io/badge/🧊_Arctic_Code_Vault-Contributor-informational?style=flat-square)](https://github.com/Dacastillo?achievement=arctic-code-vault-contributor&tab=achievements)
+[![Website](https://img.shields.io/badge/web-dacastillo.github.io-informational?style=flat&logo=github)](https://dacastillo.github.io)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--9556--4831-brightgreen?style=flat&logo=orcid)](https://orcid.org/0000-0002-9556-4831)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-esdacastillo-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/esdacastillo/)
+[![Arctic Code Vault](https://img.shields.io/badge/Arctic_Code_Vault-Contributor-blue?style=flat&logo=github)](https://archiveprogram.github.com/)
 
 </div>
 
 ---
 
-## 👋 About Me
+## Sobre mí
 
-I'm a computational physicist working at the intersection of **multiscale materials modeling**, **AI-enhanced simulation**, and **quantum computing**. My research focuses on few-atom systems, nanomaterials, and the design of data-driven methods that can augment or accelerate traditional first-principles calculations.
+Investigador en física computacional, con base en Santiago de Chile. Mi trabajo se concentra en el **modelamiento multiescala de nanomateriales** — desde simulaciones atomísticas clásicas con dinámica molecular hasta métodos de primeros principios y aprendizaje automático aplicado a propiedades de materiales.
 
-I'm particularly drawn to problems where the physical scale matters: from single-atom behavior up through mesoscale phenomena, and from classical molecular dynamics all the way to quantum circuit simulation. I enjoy building tools that bridge these scales.
+En paralelo, trabajo en la intersección entre **simulación cuántica y computación cuántica**, como parte del grupo [Moleqlas](https://github.com/Dacastillo/Moleqlas---group-repo) (subgrupo del QuDIT, PUC Chile), explorando cómo los algoritmos cuánticos pueden acelerar la simulación de sistemas moleculares complejos.
 
-When I'm not doing research, I explore new programming languages, build local AI stacks, and think about how to turn scientific knowledge into accessible, scalable assets.
+- 🧲 **Nanomateriales 2D** — hBN, grafeno, heteroestructuras vdW, straintronics
+- ⚛️ **Potenciales ML interatómicos (MLIPs)** — pipelines DFT→AMP, aprendizaje activo
+- 🔬 **Simulación molecular** — LAMMPS, GPAW, Quantum Espresso, ORCA
+- 💻 **Computación cuántica** — VQE, ansätze compactos, simulación de estados térmicos
+- 📊 **Ciencia de datos científicos** — análisis bibliométrico, pipelines en R y Python
 
 ---
 
-## 🔬 Research Interests
+## Proyectos propios
+
+| Repositorio | Descripción | Stack |
+|---|---|---|
+| [**r**](https://github.com/Dacastillo/r) | Investigación: DFT, LAMMPS, MD de materiales 2D y heteroestructuras | Python · LAMMPS · TeX · MATLAB · Wolfram |
+| [**t**](https://github.com/Dacastillo/t) | Docencia: apuntes, presentaciones y material de curso | LaTeX · HTML |
+| [**Moleqlas---group-repo**](https://github.com/Dacastillo/Moleqlas---group-repo) | Grupo Moleqlas (QuDIT/PUC): computación cuántica aplicada a química cuántica | Jupyter · Python |
+| [**QQuipu3**](https://github.com/Dacastillo/QQuipu3) ⭐ | Quantum Quipu: simulación de estados térmicos/Gibbs con circuitos cuánticos | Qiskit · Python |
+| [**LAMMPS-tutorial**](https://github.com/Dacastillo/LAMMPS-tutorial) ⭐ | Tutorial de LAMMPS presentado en LAMMPS Workshop | Shell · LAMMPS |
+| [**Shore-Test**](https://github.com/Dacastillo/Shore-Test) | Rastreo de líneas de costa en Chile mediante CoastSat (Landsat/Sentinel-2 + GEE) | Python · Jupyter · GEE |
+| [**PDE-Test**](https://github.com/Dacastillo/PDE-Test) | Resolución de EDPs sobre geometrías 3D STL con elementos finitos | Python · Jupyter |
+| [**project\_Dacastillo**](https://github.com/Dacastillo/project_Dacastillo) | Proyecto QHack 2023 — hackathon de computación cuántica | Jupyter · Python |
+| [**dacastillo.github.io**](https://github.com/Dacastillo/dacastillo.github.io) | Sitio web personal | HTML |
+
+---
+
+## Intereses en investigación
 
 ```
-Nanomaterials & 2D materials (graphene, hBN, van der Waals heterostructures)
-Machine Learning Interatomic Potentials (MLIPs) — Behler-Parrinello, deep potentials
-Molecular Dynamics & DFT (LAMMPS, GPAW, Quantum Espresso, ORCA)
-Electrochemistry (NRR, AOR, corrosion, batteries, fuel cells)
-Quantum Computing for Chemistry (VQE, tensor networks, thermal state simulation)
-Straintronics & spintronics in low-dimensional systems
-AI-driven scientific methods & agentic workflows
+Modelamiento multiescala  ──►  DFT  ──►  MD clásica  ──►  MLIP  ──►  propiedades emergentes
+         │
+         └──►  Computación cuántica  ──►  VQE / ansätze  ──►  simulación molecular cuántica
 ```
 
----
+**Materiales y física:**
+nanomateriales 2D (hBN, grafeno, heterostructuras vdW) · carbono amorfo · straintronics ·
+espintrónica · nanopartículas · propiedades mecánicas atomísticas
 
-## 🚀 Projects & Repositories
+**Métodos computacionales:**
+MLIPs (Behler-Parrinello / AMP) · DFT (GPAW, Quantum Espresso, ORCA) · MD (LAMMPS) ·
+VQE y ansätze compactos (Qiskit) · simulación de estados de Gibbs ·
+FEM sobre geometrías 3D · análisis bibliométrico (R, OpenAlex, Semantic Scholar)
 
-### 🧪 Molecular Dynamics & Materials Simulation
-
-| Repo | Description |
-|------|-------------|
-| [LAMMPS-tutorial](https://github.com/Dacastillo/LAMMPS-tutorial) | Shell scripts and input files from a LAMMPS workshop. Covers setup, force fields, and analysis pipelines for MD simulations. |
-| [atomman](https://github.com/Dacastillo/atomman) *(fork)* | Atomistic Manipulation Toolkit from NIST — used for constructing and analyzing atomistic systems. |
-| [deepmd-kit](https://github.com/Dacastillo/deepmd-kit) *(fork)* | Deep learning package for many-body potential energy surfaces and MD — reference for MLIP development. |
-| [lammps_interface](https://github.com/Dacastillo/lammps_interface) *(fork)* | Automatic generation of LAMMPS input files for MD simulations of MOFs. |
-| [Studio_LAMMPS](https://github.com/Dacastillo/Studio_LAMMPS) *(fork)* | Interactive R-based dashboard interface for LAMMPS simulations. |
-| [pyiron](https://github.com/Dacastillo/pyiron) *(fork)* | Integrated development environment for computational materials science workflows. |
-
-### ⚛️ Quantum Computing & Quantum Chemistry
-
-| Repo | Description |
-|------|-------------|
-| [QQuipu3](https://github.com/Dacastillo/QQuipu3) ⭐ | **Quantum Quipu project**: Simulation of thermal states using quantum computing. Part of the QuDIT group. |
-| [Moleqlas---group-repo](https://github.com/Dacastillo/Moleqlas---group-repo) | Group repository for the Moleqlas subgroup of QuDIT — quantum computing applications to quantum chemistry. |
-| [project_Dacastillo](https://github.com/Dacastillo/project_Dacastillo) | Submission for **QHack 2023** hackathon — quantum ML applied to physics problems. |
-| [classiq-library](https://github.com/Dacastillo/classiq-library) *(fork)* | The Classiq Library: quantum algorithms and applications — community-maintained. |
-| [SimulaQron](https://github.com/Dacastillo/SimulaQron) *(fork)* | Quantum Network Simulator for application programming. |
-| [QFT_Sims](https://github.com/Dacastillo/QFT_Sims) *(fork)* | Quantum field theory simulations in Python. |
-| [MelvinPython](https://github.com/Dacastillo/MelvinPython) *(fork)* | Python implementation of Melvin — algorithmic discovery of quantum optical experiments. |
-| [Theseus](https://github.com/Dacastillo/Theseus) *(fork)* | Aspuru-Guzik group's tool for inverse design of quantum optical experiments. |
-| [SEMNET](https://github.com/Dacastillo/SEMNET) *(fork)* | Semantic network for quantum physics literature — knowledge graph construction. |
-| [Notebooks-del-canal](https://github.com/Dacastillo/Notebooks-del-canal) *(fork)* | Quantum computing pedagogical notebooks. |
-
-### 🌊 Scientific Computing & Numerical Methods
-
-| Repo | Description |
-|------|-------------|
-| [Shore-Test](https://github.com/Dacastillo/Shore-Test) | Coastal tracking model — application of computational methods to geophysical problems. |
-| [PDE-Test](https://github.com/Dacastillo/PDE-Test) | Jupyter notebooks exploring numerical PDE methods. |
-
-### 🌐 Web, Teaching & Misc
-
-| Repo | Description |
-|------|-------------|
-| [dacastillo.github.io](https://github.com/Dacastillo/dacastillo.github.io) | Personal academic website built in HTML. |
-| [t](https://github.com/Dacastillo/t) | Teaching materials and course resources. |
-| [r](https://github.com/Dacastillo/r) | Research notes and TeX documents. |
-| [ethereumbook](https://github.com/Dacastillo/ethereumbook) *(fork)* | "Mastering Ethereum" by Antonopoulos & Wood — deep dive into blockchain tech. |
-| [awesome-selfhosted](https://github.com/Dacastillo/awesome-selfhosted) *(fork)* | Curated list of self-hostable free software. |
-| [GEARS](https://github.com/Dacastillo/GEARS) *(fork)* | Game-Engine Assisted Research framework for scientific computing in VR. |
+**Aplicaciones:**
+electrónica a nanoescala · energía · catálisis · costas y medioambiente
 
 ---
 
-## ⭐ Things I Follow & Find Interesting
-
-My starred repositories map the frontier of what I think matters. Here's a thematic overview:
-
-### 🤖 Neural Network Potentials & MLIPs
-- **[aenet](https://github.com/atomisticnet/aenet)** + **[aenet-lammps](https://github.com/atomisticnet/aenet-lammps)** — Atomic interaction potentials via artificial neural networks, interfaced with LAMMPS.
-- **[deepqmc](https://github.com/deepqmc/deepqmc)** — Deep learning quantum Monte Carlo for electrons in real space.
-- **[ferminet](https://github.com/google-deepmind/ferminet)** — DeepMind's fermionic neural network for ab-initio electronic structure.
-- **[upet](https://github.com/lab-cosmo/upet)** — Universal interatomic potentials for advanced materials modeling (lab-cosmo).
-- **[PINNeAPPle](https://github.com/barrosyan/PINNeAPPle)** — Open-source Physics-Informed Neural Networks (PINNs) toolkit.
-
-### 🔷 Quantum Computing & Many-Body Physics
-- **[Mini-Qiskit_with_Tensor_Networks](https://github.com/DOKOS-TAYOS/Mini-Qiskit_with_Tensor_Networks)** — Tensor network implementation of a Qiskit-like framework.
-- **[dmrgpy](https://github.com/joselado/dmrgpy)** — DMRG for quasi-1D spin chains and fermionic systems via ITensor.
-- **[pyqula](https://github.com/joselado/pyqula)** — Tight-binding models with topological, electronic, and magnetic properties.
-- **[tenpy_toycodes](https://github.com/tenpy/tenpy_toycodes)** — Tensor network toycodes and TeNPy tutorials.
-- **[Advanced_Computational_Methods_Physics_2024](https://github.com/joselado/Advanced_Computational_Methods_Physics_2024)** — Aalto University: quantum many-body and tensor networks.
-- **[Quantum-tech-papers](https://github.com/grageragarces/Quantum-tech-papers)** — Curated quantum paper library.
-- **[Thesis-VQE](https://github.com/jervaal/Thesis-VQE)** — VQE for molecular simulation.
-
-### 🧱 Materials Design & Databases
-- **[jarvis](https://github.com/usnistgov/jarvis)** — NIST JARVIS tools for data-driven atomistic materials design.
-- **[matopt](https://github.com/xyin-anl/matopt)** — Algebraic modeling language for optimization-based nanomaterials design (Pyomo).
-- **[MatFeaLib](https://github.com/MatFeaLib/MatFeaLib)** — Materials feature library.
-- **[DefiNet](https://github.com/Shen-Group/DefiNet)** — Deep learning for materials property prediction.
-
-### 📚 Scientific ML & Parallel Computing
-- **[18.337 / SciMLBook](https://github.com/mitmath/18337)** — MIT course: Parallel Computing and Scientific Machine Learning (Julia-based).
-- **[PySyft](https://github.com/OpenMined/PySyft)** — Privacy-preserving ML; data science on remote data.
-
-### 📊 Bibliometrics & Research Tools
-- **[pybiblionet](https://github.com/mirkolai/pybiblionet)** — Python library for network-based bibliometric analysis.
-- **[vitae](https://github.com/mitchelloharawild/vitae)** — R Markdown résumés and CVs.
-- **[yambo](https://github.com/yambo-code/yambo)** — Many-body perturbation theory (GW, BSE) for electronic structure.
-
----
-
-## 🛠️ Tools & Stack
+## Stack tecnológico
 
 <div align="center">
 
-**Simulation & DFT**  
-`LAMMPS` · `GPAW` · `Quantum Espresso` · `ORCA` · `VASP`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-121011?style=flat&logo=gnu-bash&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat)
 
-**ML & Neural Potentials**  
-`AMP` · `deepmd-kit` · `aenet` · `PyTorch` · `TensorFlow`
-
-**Quantum Computing**  
-`Qiskit` · `Classiq` · `TeNPy` · `ITensor`
-
-**Scientific Python**  
-`NumPy` · `SciPy` · `ASE` · `pymatgen` · `pandas` · `matplotlib`
-
-**Data & Bibliometrics**  
-`R` · `OpenAlex API` · `Semantic Scholar API` · `CrossRef API`
-
-**Local AI Stack**  
-`Ollama` · `whisper.cpp` · `Piper TTS` · `Stable Diffusion`
-
-**Languages**  
-`Python` · `Julia` · `R` · `Bash` · `MATLAB` · `TeX` · `Lua`
+![LAMMPS](https://img.shields.io/badge/LAMMPS-MD-orange?style=flat)
+![GPAW](https://img.shields.io/badge/GPAW-DFT-blue?style=flat)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=white)
+![ORCA](https://img.shields.io/badge/ORCA-Quantum_Chemistry-darkgreen?style=flat)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-## 📈 GitHub Stats
+## Estrellas temáticas
+
+Algunos repositorios que sigo de cerca, organizados por área:
+
+- **MLIPs y potenciales interatómicos** — `deepmd-kit` · `atomman` · `pyiron`
+- **Simulación molecular** — `lammps_interface` · `Studio_LAMMPS`
+- **Computación cuántica** — `classiq-library` · `Notebooks-del-canal` · `SimulaQron` · `QFT_Sims`
+- **Algoritmos cuánticos** — `MelvinPython` · `Theseus` · `SEMNET` · `project_Dacastillo`
+- **Herramientas de desarrollo** — `Gooey` · `awesome-selfhosted` · `free-programming-books`
+
+---
+
+## Estadísticas
 
 <div align="center">
 
-![Dacastillo's GitHub stats](https://github-readme-stats.vercel.app/api?username=Dacastillo&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dacastillo&show_icons=true&theme=default&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dacastillo&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dacastillo&layout=compact&theme=default&hide_border=true&langs_count=8)
 
 </div>
 
 ---
 
-## 🧭 Current Focus
+## Foco actual
 
-- 🔬 **MLIP pipeline for hBN monolayers under strain** — DFT data generation with GPAW, training Behler-Parrinello potentials with AMP, active learning via committee models.
-- 🤖 **AI agent workflows for LAMMPS → DFT** — using Claude Code to audit and optimize MD simulations of graphene/hBN van der Waals heterostructures as input to Quantum Espresso/ORCA.
-- 📖 **Bibliometric system in R** — retrieving and analyzing literature on AI applications to chemical reaction simulations (NRR, AOR, corrosion electrochemistry, battery manufacturing) using open APIs.
-- 💻 **VQE with compact ansätze** — minimal CNOT-count circuits for atomic pair energy minimization (H₂, LiH) in Qiskit.
-
----
-
-## 📫 Contact
-
-- 🌐 [dacastillo.github.io](http://dacastillo.github.io)
-- 📍 Santiago de Chile 🇨🇱
+- 🔧 Pipeline MLIP para monocapa de hBN bajo deformación: GPAW → AMP (Behler-Parrinello) con aprendizaje activo por comité de modelos
+- 🤖 Agente de auditoría de simulaciones LAMMPS (Claude Code) para heteroestructuras grafeno/hBN → input DFT (Quantum Espresso / ORCA)
+- 📚 Sistema bibliométrico en R para literatura de IA aplicada a simulación de reacciones químicas (OpenAlex, Semantic Scholar, CrossRef)
+- ⚡ VQE con ansätze compactos (mínimo CNOT) para energías de pares atómicos en Qiskit
 
 ---
 
 <div align="center">
-<sub>Built with curiosity about atoms, electrons, and the models that connect them.</sub>
+
+*"Investigador independiente nacido en Santiago de Chile y con vocación global."*
+
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--9556--4831-brightgreen?style=flat&logo=orcid)](https://orcid.org/0000-0002-9556-4831)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-esdacastillo-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/esdacastillo/)
+
 </div>
